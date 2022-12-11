@@ -88,7 +88,7 @@ class Bus(BusABC):  # pylint: disable=abstract-method
     """
 
     @staticmethod
-    def __new__(  # type: ignore  # pylint: disable=keyword-arg-before-vararg
+    def __new__(  # pylint: disable=keyword-arg-before-vararg
         cls: Any,
         channel: Optional[Channel] = None,
         interface: Optional[str] = None,
